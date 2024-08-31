@@ -4,28 +4,37 @@
     box-sizing: border-box;
 }
 
+head{
+    background-color: #FFF9ED;
+}
+
 header,
 section h2,
 section h3,
 form button{
-    font-family: "Bungee", sans-serif;
+    font-family: "SUSE", sans-serif;
     font-weight: normal;
 }
 
 body, input, textarea{
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    background-color: #FFF9ED;
 }
 
 header{
     padding: 24px 0;
-    background-color: #182C61;
+    background-color: #005C1D;
     color: #ecf0f1;
+}
+
+header img{
+    width: 120px;
 }
 
 header nav li{
     display: inline;
     margin-left: 16px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 header nav li a{
@@ -34,9 +43,10 @@ header nav li a{
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    font-size: 14px;
 }
 
 header .container, section .container{
@@ -67,7 +77,7 @@ section h2{
 }
 
 section{
-    color: #182C61;
+    color: #005C1D;
 }
 
 section p{
@@ -76,6 +86,10 @@ section p{
 
 .store-front{
     margin-right: 32px;
+}
+
+.mobile{
+    margin-left: 32px;
 }
 
 .social-links img{
@@ -119,7 +133,7 @@ section h3{
 }
 
 form button{
-    background-color: #182C61;
+    background-color: #005C1D;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
@@ -127,15 +141,15 @@ form button{
 }
 
 form button:hover{
-    background-color: #364b85;
+    background-color: #177a37;
 }
 
 input:focus, textarea:focus{
-    outline-color: #182C61;
+    outline-color: #005C1D;
 }
 
 footer{
-    background-color: #182C61;
+    background-color: #005C1D;
     color: #ecf0f1;
     padding: 16px 0;
 }
